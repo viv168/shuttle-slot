@@ -1,0 +1,30 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "bcrypt": "^5.1.1",
+    "clsx": "^2.1.0",
+    "jose": "^5.2.4",
+    "next": "14.1.1-canary.20",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-spinners": "^0.13.8",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.1",
+    "typescript": "latest"
+  }
+}

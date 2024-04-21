@@ -33,12 +33,12 @@ export default async function HomeLayout({
         <div className="text-2xl mt-3">How would you like to proceed?</div>
         <div className="flex flex-row justify-around">
           <Link href="/home/bookings">
-            <button className="text-xl mt-5 text-black hover:text-cyan-700 hover:font-bold p-3">
+            <button className="text-xl mt-5 text-white hover:font-bold p-3 bg-cyan-700 mb-3 rounded-xl">
               Bookings
             </button>
           </Link>
           <Link href="/home/courts">
-            <button className="text-xl mt-5 text-black hover:text-cyan-700 hover:font-bold p-3">
+            <button className="text-xl mt-5 text-white hover:font-bold p-3 bg-cyan-700 mb-3 rounded-xl">
               Courts
             </button>
           </Link>
